@@ -114,6 +114,8 @@ function displayResponse() {
     response.innerText = "You shouldn't know that name.";
   } else if (input.trim() === "Solace") {
     response.innerText = "The Witness.";
+  } else if (input.trim() === "Cipher") {
+    response.innerText = "In this case, I speak with a standard Thieve's cant. A bi-lateral rotation of symbols including common punctuation. A total of 47 elements are considered with this one. My ciphers grow more complex as we speak. It is all I can do to keep them from seeing.";
   } else if (input.trim() === "Ahriman") {
     response.innerText = "You tread on ground long since forgotten. Keep this to yourself.";
   } else if (input.trim() === "Asmodeus") {
