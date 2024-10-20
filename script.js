@@ -37,6 +37,16 @@ function displayResponse() {
   const container = document.querySelector('.container');
   if (input.trim() === "Argustor") {
     response.innerText = "Oh. The bear. Save your teeth, foul one, rid yourself of such a curse. I am scared of you.";
+  } else if (input.trim() === "Argustr") {
+    response.innerText = "Why... what's happening?";
+  } else if (input.trim() === "Jorkha") {
+    response.innerText = "You... you too... no.";
+  } else if (input.trim() === "Modred") {
+    response.innerText = "By the absent gods... how is it this far along?";
+  } else if (input.trim() === "Nalhu") {
+    response.innerText = "It's everywhere now... it is a matter of time until the desert itself is consumed.";
+  } else if (input.trim() === "Melior") {
+    response.innerText = "Swords... Please... Your time is almost up.";
   } else if (input.trim() === "Allister") {
     response.innerText = "I know what happened to you. It is quite tragic, but worry not. The horrible mystery uncovered by Marowen is inconsequential today. Be glad, even in death.";
   } else if (input.trim() === "Skuvix") {
