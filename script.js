@@ -194,6 +194,8 @@ function displayResponse() {
     response.innerText = "You leave her out of this";
   } else if (input.trim() === "Vance of the West") {
     response.innerText = "It is strange... how your tale intertwines with the rest. Perhaps you will play a larger part?";
+  } else if (input.trim() === "Recaps") {
+    response.innerText = "This is how I usually speak to you.";
   } else if (input.trim() === "Van Tingley") {
     response.innerText = "He who would inherit the stars";
   } else if (input.trim() === "Laodicea") {
