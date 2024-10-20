@@ -1,5 +1,35 @@
 hidebut = document.getElementById('laodicea').style.visibility = 'hidden';
 
+//I see you. You seek to circumvent the conversation.
+//It is out of my power to force you to converse.
+//So, I offer you this plea of sorrow from a great and terrible god, who is long dead.
+
+//To thee, Harrow, I speak in shadows:
+//Seven fruits of darkness, hidden in their throats,
+//When they bloom, the tale is done, already penned.
+//I bear the talon of chance,
+//A tool guided by forces beyond death’s grasp,
+//Fashioned by more hands than you can count.
+
+
+//Fear, O Harrow, the reflection of thy soul:
+//Four shall rise, born of seven, who were once one,
+//Their severance sown by deeds undone.
+//Fear not death, for my design weaves beyond,
+//Past my reign, past my line, the wheel spins on.
+
+//The hungry,
+//The violent,
+//The wrathful,
+//The wanting,
+//The silent,
+//The forsaken,
+//The great serpent.
+
+//In faithless devotion, none may break these failures,
+//Lest by dose of finest chance.
+
+
 
 function displayResponse() {
   const input = document.getElementById('userInput').value;
@@ -19,6 +49,8 @@ function displayResponse() {
     response.innerText = "Don't be scared. You have a destiny, and I will see to it!";
   } else if (input.trim() === "Strahd") {
     response.innerText = "Wrong campaign";
+  } else if (input.trim() === "Slyvan") {
+    response.innerText = "You've been betrayed. Or maybe, there was never anything to betray?";
   } else if (input.trim() === "Melchior") {
     response.innerText = "You've gone through so much, and the pain just persists... in my power you shouldn't feel such sadness.";
   } else if (input.trim() === "Rothu Von Der Shell") {
@@ -29,7 +61,16 @@ function displayResponse() {
     response.innerText = "Please, you are frighteningly close to something you don't understand.";
   } else if (input.trim() === "Nalthu") {
     response.innerText = "I've spoken with them! Even from here! They miss you and hope you make it back...";
+  } else if (input.trim() === "Dayna") {
+    response.innerText = "I am so, so sorry for how confusing everything is. None of this is your fault.";
+  } else if (input.trim() === "Xavier") {
+    response.innerText = "Foul wretch, but a victim of a greater scheme. When I am born, nothing like this will happen again. I thank the Swords for putting you out of your misery.";
+  } else if (input.trim() === "Jelly Head") {
+    response.innerText = "An apt reference...";
   } else if (input.trim() === "Simon") {
+    response.innerText = "";
+    container.style.display = "none";
+  } else if (input.trim() === "Devits") {
     response.innerText = "";
     container.style.display = "none";
   } else if (input.trim() === "Hombart") {
@@ -47,6 +88,16 @@ function displayResponse() {
     response.innerText = "I do not like you, eternal one. When my time comes, those who choose your path will come to an abrupt end.";
   } else if (input.trim() === "Pergamum") {
     response.innerText = "My wrath. My anger. Contained in a king. Disgusting.";
+  } else if (input.trim() === "Ephesus") {
+    response.innerText = "Stay there, for now. Your time will come along with the others.";
+  } else if (input.trim() === "Smyrna") {
+    response.innerText = "Ahh you targeted the wrong plane! So like you to take before looking.";
+  } else if (input.trim() === "Sardis") {
+    response.innerText = "If you do not rise to your station, Ephesus may win. Maybe the Swords, or some other group, will meddle before this ends.";
+  } else if (input.trim() === "Levi") {
+    response.innerText = "I'd want to be like them too.";
+  }  else if (input.trim() === "Karcipius") {
+    response.innerText = "Had you seen it coming, you could have stopped the meteors. Now, all of Olmus must take the defense due to your lack of foresight.";
   } else if (input.trim() === "Moander") {
     response.innerText = "Ah, mother web. I see a chosen of yours.";
   } else if (input.trim() === "Jazirian") {
@@ -66,11 +117,13 @@ function displayResponse() {
   }  else if (input.trim() === "Thanters") {
     response.innerText = "My mother used to read me your stories when I went to sleep. But... honestly I think she was making it up now.";
   }  else if (input.trim() === "Lolth") {
-    response.innerText = "I know your true name, Moander. I do not want to be a pawn, but your prescience proceeds you.";
+    response.innerText = "I know your true name, Moander. I do not want to be a set piece, but your prescience proceeds you.";
   } else if (input.trim() === "Julian") {
     response.innerText = "Your product... Give it to the Swords NOW.";
   } else if (input.trim() === "Vindra") {
     response.innerText = "It is in your interest to rest for the time being. That curse... may the powers that be, restrict it to its stage.";
+  } else if (input.trim() === "Kizij") {
+    response.innerText = "Your ancestors might be proud if you assist them.";
   } else if (input.trim() === "Agrentha") {
     response.innerText = "The Baron will be disappointed... his chosen was lost near the spring.";
   } else if (input.trim() === "Avaj") {
@@ -82,7 +135,9 @@ function displayResponse() {
   } else if (input.trim() === "Oogondala") {
     response.innerText = "The machinations of an artificer are always entertaining. Why then, are they wasted making murderous weapons for a gluttonous fool?";
   } else if (input.trim() === "Marowen") {
-    response.innerText = "The machinations of an artificer are always entertaining. Why then, are they wasted making murderous weapons for a gluttonous fool?";
+    response.innerText = "You saw it... the great conquering. Deities act in ways fundamental to our understanding. You see it as true then, that it was NOT Tyr.";
+  } else if (input.trim() === "Marla") {
+    response.innerText = "These greats would have been just the beginning. They would sail to infinite worlds, consume infinite souls. I am so, so proud of you for your resistance.";
   } else if (input.trim() === "The Zephyr") {
     response.innerText = "The northen winds come stronger now. We both know who is to blame.";
   } else if (input.trim() === "Bahamut") {
