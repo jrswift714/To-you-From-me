@@ -129,7 +129,7 @@ function displayResponse() {
   }  else if (input.trim() === "Lolth") {
     response.innerText = "I know your true name, Moander. I do not want to be a set piece, but your prescience proceeds you.";
   } else if (input.trim() === "Julian") {
-    response.innerText = "Your product... Give it to the Swords NOW.";
+    response.innerText = "*@FC AC@5F4E]]] v:G6 :E E@ E96 $H@C5D }~(]";
   } else if (input.trim() === "Vindra") {
     response.innerText = "It is in your interest to rest for the time being. That curse... may the powers that be, restrict it to its stage.";
   } else if (input.trim() === "Kizij") {
