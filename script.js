@@ -244,7 +244,7 @@ function toggleMessages() {
     t.innerText = "...";
   } else if (c = 8){
     t.innerText = "https://upload.wikimedia.org/wikipedia/commons/8/8b/Old_One_by_Tom_Ardans.jpg";
-    //document.getElementById('Premonition').style.visibility = 'visible';
+    document.getElementById('Premonition').style.visibility = 'visible';
   }
   c = c + 1;
 }
