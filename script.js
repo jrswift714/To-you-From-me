@@ -1,5 +1,6 @@
+document.getElementById('Premonition').style.visibility = 'hidden';
 hidebut = document.getElementById('laodicea').style.visibility = 'hidden';
-ttt = document.getElementById('Premonition').style.visibility = 'hidden';
+
 
 //I see you. You seek to circumvent the conversation.
 //It is out of my power to force you to converse.
