@@ -1,4 +1,4 @@
-document.getElementById('Premonition').style.visibility = 'hidden';
+//document.getElementById('Premonition').style.visibility = 'hidden';
 hidebut = document.getElementById('laodicea').style.visibility = 'hidden';
 
 
