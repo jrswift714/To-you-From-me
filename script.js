@@ -166,7 +166,7 @@ function displayResponse() {
   } else if (input.trim() === "Tyr") {
     response.innerText = "How ironic. Your sponsorship was twisted.";
   } else if (input.trim() === "Everett") {
-    response.innerText = "The egg of the Perfect World";
+    response.innerText = "https://drive.google.com/drive/folders/1499UBAUuVZx1P4EVcg0a7HeP7N8aVDy-?usp=sharing";
   } else if (input.trim() === "Wayward") {
     response.innerText = "Poor child... I hope they put you to rest soon.";
   } else if (input.trim() === "Wayward") {
