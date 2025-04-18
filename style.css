@@ -1,16 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #555555;
+  background-color: #222222;
   display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  margin: 100vh;
 }
 
 .container {
-  background-color: #C04040;
-  padding: 200px;
+  background-color: #FFFFFF;
+  padding: 40px;
   box-shadow: 0 0 2000px rgba(9, 5, 5, 90);
   text-align: center;
 }
